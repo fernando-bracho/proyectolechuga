@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.Button?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.PrimaryController">
+    <children>
+        <Button text="Mesa 1" fx:id="btnMesa1" onAction="#handleMesaClick"/>
+        <Button text="Mesa 2" fx:id="btnMesa2" onAction="#handleMesaClick"/>
+        <Button text="Mesa 3" fx:id="btnMesa3" onAction="#handleMesaClick"/>
+        <Button text="Mesa 4" fx:id="btnMesa4" onAction="#handleMesaClick"/>
+        <Button text="Mesa 5" fx:id="btnMesa5" onAction="#handleMesaClick"/>
+        <Button text="Mesa 6" fx:id="btnMesa6" onAction="#handleMesaClick"/>
+    </children>
+</GridPane>
